@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import { Jumbotron } from './Jumbotron';
+
  
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
@@ -18,7 +18,7 @@ class SimpleMap extends Component {
       
       // Important! Always set the container height explicitly
       <div>
-       <Jumbotron/>
+       
       <div style={{ height: '50vh', width: '50%' }}>
 
         <GoogleMapReact
